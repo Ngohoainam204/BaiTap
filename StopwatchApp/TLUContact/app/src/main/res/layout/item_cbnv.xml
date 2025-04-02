@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="#054866"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <!-- Avatar -->
+        <ImageView
+            android:id="@+id/imv_cbnv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="Avatar"
+            android:src="@drawable/ic_launcher_foreground"
+            android:scaleType="centerCrop" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/txt_name_cbnv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imv_cbnv"
+            android:layout_marginStart="16dp"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <!-- Position -->
+        <TextView
+            android:id="@+id/txt_position_cbnv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name_cbnv"
+            android:layout_toEndOf="@id/imv_cbnv"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Position"
+            android:textSize="16sp" />
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/txt_phonenumber_cbnv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_position_cbnv"
+            android:layout_toEndOf="@id/imv_cbnv"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Phone Number"
+            android:textSize="16sp" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/txt_email_cbnv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_phonenumber_cbnv"
+            android:layout_toEndOf="@id/imv_cbnv"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Email"
+            android:textSize="16sp" />
+
+        <!-- Don Vi -->
+        <TextView
+            android:id="@+id/txt_donvi_cbnv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_email_cbnv"
+            android:layout_toEndOf="@id/imv_cbnv"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Đơn vị"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

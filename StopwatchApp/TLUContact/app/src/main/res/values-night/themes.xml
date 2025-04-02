@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.TLUContact" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Style cho Action Bar -->
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <!-- Tùy chỉnh Action Bar -->
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="colorPrimary">#000102</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <!-- Style cho tiêu đề của Action Bar -->
+    <style name="ActionBarTitleText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

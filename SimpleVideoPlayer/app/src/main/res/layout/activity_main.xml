@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtVideoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập URL video"
+        android:inputType="textUri"/>
+
+    <Button
+        android:id="@+id/btnPlayUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phát video từ URL"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnPickVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn video từ thiết bị"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

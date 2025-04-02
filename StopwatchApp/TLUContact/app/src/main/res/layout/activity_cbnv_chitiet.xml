@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/light_background"
+    tools:context=".CBNV.CBNV_chitiet">
+
+    <!-- Ảnh đại diện -->
+    <ImageView
+        android:id="@+id/imv_cbnv_chitiet"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Thông tin chi tiết -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_name_cbnv_chitiet"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+        android:text="Chức vụ:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_position_cbnv_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Số điện thoại:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_phonenumber_cbnv_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_email_cbnv_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Đơn vị:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_donvi_cbnv_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="529dp"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="107dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logofb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:src="@drawable/logofb" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="99dp"
+            android:layout_height="70dp"
+            android:src="@drawable/zalologo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="0.742"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.466"
+            tools:ignore="MissingConstraints"
+            tools:srcCompat="@drawable/zalologo" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:src="@drawable/inlogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428"
+            tools:ignore="MissingConstraints"
+            tools:srcCompat="@drawable/inlogo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

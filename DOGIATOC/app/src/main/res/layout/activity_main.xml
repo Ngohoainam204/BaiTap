@@ -1,0 +1,19 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_acceleration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gia tốc: X=0.0, Y=0.0, Z=0.0"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background" />
+</LinearLayout>
